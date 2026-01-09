@@ -45,6 +45,8 @@
     
 </head>
 <body>
+
+    <img src="napis head.png" />
         
     <button id="btn"><img src="thinker.svg"
      	    alt="Button Image" style="width: 50px; height: 50px;"></button>
@@ -57,23 +59,12 @@
         document.getElementById("btn").addEventListener("click", function () {
             audio.play();
 
-            // SEND CLICK EVENT TO CLICKY
-            if (typeof clicky !== "undefined") {
-                clicky.log('Open Button Clicked', 'click');
-            }
         });
     </script>
-    <img src="napis head.png" />
+ 
 
-    <!-- Clicky heatmap configuration (optional but kept from your code) -->
-    <script>
-        var clicky_custom = clicky_custom || {};
-        clicky_custom.heatmap_objects = '#btn';
-    </script>
-
-    <!-- Clicky tracking script -->
-    <script async data-id="101496359" src="//static.getclicky.com/js"></script>
 
 </body>
 </html>
+
 
